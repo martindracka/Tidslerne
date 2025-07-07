@@ -11,7 +11,7 @@ const formData = ref({
   phone: '',
   membershipType: 'basic',
   agreeToTerms: false
-})
+}) 
 
 const isSubmitting = ref(false)
 const submitMessage = ref('')
