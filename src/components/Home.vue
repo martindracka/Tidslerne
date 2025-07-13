@@ -373,8 +373,8 @@ const products = [
                   <img :src="product.frontImage" :alt="`${product.name} - Front`" class="modal-product-img" />
                 </div>
                 <div class="image-thumbnails">
-                  <img :src="product.frontImage" :alt="Front" class="thumbnail active" />
-                  <img :src="product.backImage" :alt="Back" class="thumbnail" />
+                  <img :src="product.frontImage" alt="Front view" class="thumbnail active" />
+                  <img :src="product.backImage" alt="Back view" class="thumbnail" />
                 </div>
               </div>
             </div>

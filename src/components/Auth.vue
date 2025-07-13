@@ -17,10 +17,6 @@ const isSubmitting = ref(false)
 const submitMessage = ref('')
 const showForgotPassword = ref(false)
 
-const toggleMode = () => {
-  isLoginMode.value = !isLoginMode.value
-  resetForm()
-}
 
 const resetForm = () => {
   formData.value = {
