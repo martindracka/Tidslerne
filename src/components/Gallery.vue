@@ -7,7 +7,7 @@ const selectedVideo = ref<string | null>(null)
 const galleryImages = [
   {
     id: 1,
-    src: '/mainielsen1.jpg',
+    src: '/mainielsen1.jpg', 
     alt: 'Mai Nielsen - Formand for Tidslerne',
     category: 'Ledelse'
   },
